@@ -36,14 +36,14 @@ model.fit(X, y)
 # GUI
 # =========================
 root = tk.Tk()
-root.title("GUI for Flexural Strength Prediction of FRP-Waste Aggregate Concrete")
+root.title("GUI for Flexural Strength Prediction of FRP-Waste Aggregate Concrete Beams")
 root.geometry("720x720")
 root.configure(bg="white")
 
 # Header
 header = tk.Label(
     root,
-    text="GUI for Flexural Strength Prediction of FRP-Waste Aggregate Concrete",
+    text="GUI for Flexural Strength Prediction of FRP-Waste Aggregate Concrete Beams",
     bg="#b11226",
     fg="white",
     font=("Arial", 14, "bold"),
