@@ -44,6 +44,7 @@ root.configure(bg="white")
 header = tk.Label(
     root,
     text="GUI for Flexural Strength Prediction of FRP-Waste Aggregate Concrete Beams",
+    wrap_length=400,
     bg="#b11226",
     fg="white",
     font=("Arial", 14, "bold"),
